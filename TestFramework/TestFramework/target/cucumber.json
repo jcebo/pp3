@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5112670700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Log into account with correct details",
+        "description": "",
+        "id": "login-into-account;log-into-account-with-correct-details",
+        "after": [
+          {
+            "result": {
+              "duration": 2640766800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2320237900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to test website",
+            "match": {
+              "location": "Login.user_navigates_to_test_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2136846300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "Login.user_enters_a_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95115500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "Login.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2578635400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks login button",
+            "match": {
+              "location": "Login.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3099209400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be taken to successful login page",
+            "match": {
+              "location": "Login.user_should_be_taken_to_successful_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into account",
+    "description": "User should be able to log in to their account using correct credentials",
+    "id": "login-into-account",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
